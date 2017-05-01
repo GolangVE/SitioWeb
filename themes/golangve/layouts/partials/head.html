@@ -8,9 +8,11 @@
     {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
     {{ .Hugo.Generator }}
+    <meta name="robots" content="noodp"/>
     <link rel="canonical" href="{{ .Permalink }}">
     <!-- SEO OG: -->
-    <meta property="og:locale" {{ with .Site.LanguageCode }}content="{{ . }}"{{ end }}/>
+    <meta property="fb:app_id" content="1738958976390281"/>
+    <meta property="og:locale" content="es_ES"/>
     <meta property="og:type" content="website"/>
     {{ with .Site.Title }}<meta property="og:title" content="{{ . }}">{{ end }}
     {{ with .Site.Params.description }}<meta property="og:description" content="{{ . }}">{{ end }}
@@ -30,7 +32,12 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="shortcut icon" href="{{ with .Site.Params.favicon }}{{ . | absURL }}{{ else }}{{ "images/icono.png" | absURL }}{{ end }}">
     <link rel="icon" href="{{ with .Site.Params.favicon }}{{ . | absURL }}{{ else }}{{ "images/icono.png" | absURL }}{{ end }}" type="image/png">
+    <!-- RSS Feeds -->
+    {{ with .RSSLink }}<link href="{{ . }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }} - RSS Feeds" />
+    <link href="{{ . }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }} - RSS Feeds" />{{ end }}
     <!-- Estilos -->
+    {{ range .Site.Params.custom_css }}<link rel="stylesheet" href="{{ . | absURL }}">{{ end }}
+    <script src="{{ "javascripts/modernizr.js" | absURL }}"></script>
     <style>
       @font-face {
         font-family: 'Icon';
@@ -63,9 +70,5 @@
         font-family: '{{ $code }}', 'Courier New', 'Courier', monospace;
       }
     </style>
-    {{ range .Site.Params.custom_css }}<link rel="stylesheet" href="{{ . | absURL }}">{{ end }}
-    <script src="{{ "javascripts/modernizr.js" | absURL }}"></script>
-    {{ with .RSSLink }}<link href="{{ . }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
-    <link href="{{ . }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />{{ end }}
   </head>
   <body class="{{ with .Site.Params.palette.primary }}palette-primary-{{ . }}{{end }} {{ with .Site.Params.palette.accent }}palette-accent-{{ .  }}{{ end }}">
