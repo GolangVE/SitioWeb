@@ -1,5 +1,4 @@
-{{ if .IsPage }}
-{{ if .Prev | or .Next }}
+{{ if .IsPage }}{{ if .Prev | or .Next }}
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   {{ if .Prev }}
