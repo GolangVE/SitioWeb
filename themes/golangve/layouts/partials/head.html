@@ -2,13 +2,13 @@
   <html class="no-js" {{ with .Site.LanguageCode }}lang="{{ . }}"{{ end }} prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Title }}{{ if not .IsHome }} - {{ .Site.Title }}{{ end }}</title>
-    {{ .Hugo.Generator }}
     {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
-    <link rel="canonical" href="{{ .Permalink }}">
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+    {{ .Hugo.Generator }}
+    <link rel="canonical" href="{{ .Permalink }}">
     <!-- SEO OG: -->
     <meta property="og:locale" {{ with .Site.LanguageCode }}content="{{ . }}"{{ end }}/>
     <meta property="og:type" content="website"/>
