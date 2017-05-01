@@ -45,15 +45,22 @@
         <ul>
           {{ with .Site.Social.twitter }}
           <li>
-            <a href="https://twitter.com/{{ . }}" target="_blank" title="@{{ . }} on Twitter">
+            <a href="https://twitter.com/{{ . }}" target="_blank" title="@{{ . }} en Twitter">
               @{{ . }} en Twitter
             </a>
           </li>
           {{ end }}
           {{ with .Site.Social.github }}
           <li>
-            <a href="https://github.com/{{ . }}" target="_blank" title="@{{ . }} on GitHub">
+            <a href="https://github.com/{{ . }}" target="_blank" title="@{{ . }} en GitHub">
               @{{ . }} en GitHub
+            </a>
+          </li>
+          {{ end }}
+          {{ with .Site.Social.github }}
+          <li>
+            <a href="https://gitlab.com/{{ . }}" target="_blank" title="@{{ . }} en GitLab">
+              @{{ . }} en GitLab
             </a>
           </li>
           {{ end }}
