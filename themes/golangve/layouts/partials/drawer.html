@@ -45,6 +45,13 @@
         <ul>
           {{ with .Site.Social.twitter }}
           <li>
+            <a href="https://facebook.com/{{ . }}" target="_blank" title="@{{ . }} en Facebook">
+              @{{ . }} en Facebook
+            </a>
+          </li>
+          {{ end }}
+          {{ with .Site.Social.twitter }}
+          <li>
             <a href="https://twitter.com/{{ . }}" target="_blank" title="@{{ . }} en Twitter">
               @{{ . }} en Twitter
             </a>
