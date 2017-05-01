@@ -1,5 +1,5 @@
 baseurl = "http://golang.org.ve"
-languageCode = "es-es"
+languageCode = "es-ES"
 title = "Golang Venezuela"
 theme = "golangve"
 metadataformat = "yaml"
@@ -10,7 +10,7 @@ googleAnalytics = ""
 [params]
 	# General information
 	author = "Golang Venezuela"
-	description = "Somos la comunidad oficial de desarrolladores Golang en Venezuela"
+	description = "Bienvenidos a la comunidad oficial de desarrolladores Golang en Venezuela. Encuentra recursos, concejos y repositorios Golang libres."
 	copyright = "Golang Venezuela"
 
 	# Repository

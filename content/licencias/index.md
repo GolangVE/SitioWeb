@@ -1,7 +1,7 @@
 ---
-date: 2016-03-09T20:10:46+01:00
-title: License
-weight: 40
+date: 2016-05-01T08:07:18-04:00
+title: Licencias
+weight: 50
 ---
 
 Copyright (c) 2016 Digitalcraftsman <digitalcraftsman@protonmail.com><br>

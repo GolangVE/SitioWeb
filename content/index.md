@@ -1,8 +1,8 @@
 ---
-date: 2016-03-08T21:07:13+01:00
+date: 2016-05-01T08:07:13-04:00
 title: Golang Venezuela
 type: index
-weight: 0
+weight: 10
 ---
 
 ## Bienvenido

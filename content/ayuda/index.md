@@ -1,7 +1,7 @@
 ---
-date: 2016-03-09T00:11:02+01:00
-title: Getting started
-weight: 10
+date: 2016-05-01T08:07:20-04:00
+title: Ayuda
+weight: 60
 ---
 
 ## Installation

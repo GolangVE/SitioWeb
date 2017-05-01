@@ -1,7 +1,5 @@
 {{ $currentNode := . }}
-
 {{ range .Site.Menus.main.ByWeight }}
-
 {{ $.Scratch.Set "currentMenuEntry" . }}
 <li>
   {{ if .HasChildren }}
