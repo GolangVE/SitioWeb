@@ -11,7 +11,7 @@ Somos la primera comunidad de desarrolladores en el lenguaje de programación [G
 
 ![Wallpapers de Comunidad](/images/golangwall.jpg)
 
-Contamos con el primer sitio web totalmente en este lenguaje de entre todas las comunidades de las américas, con ayuda del Framework [Hugo](https://gohugo.io) y haciendo uso del hospedaje que brindan las plataformas [GitHub](https://github.com/GolangVE) y [GitLab](https://gitlab.com/GolangVE) de las cuales podrás hacer uso libre de nuestras librerías y [repositorios públicos](https://github.com/GolangVE).
+Contamos con el primer sitio web totalmente en este lenguaje entre todas las comunidades *Go/Golang* oficiales, con ayuda del Framework [Hugo](https://gohugo.io) y haciendo uso del hospedaje que brindan las plataformas [GitHub](https://github.com/GolangVE) y [GitLab](https://gitlab.com/GolangVE) de las cuales podrás hacer uso libre de nuestras librerías y [repositorios públicos](https://github.com/GolangVE).
 
 ## Conocenos
 
@@ -21,15 +21,17 @@ A mediados del año 2015 con el nacimiento de la comunidad [Golang Dominicana](h
 
 ## Objetivos
 
-- Difusión y divulgación del lenguaje en todo el territorio nacional. Por medio de charlas, conferencias, conversatorios, foros y talleres en distintos lugares de interés en la nación lograr la mayor penetración del conocimiento sobre este fabuloso lenguaje de programación en el territorio nacional, con el patrocinio de universidades y centros de educación superior e intermedio.
+- Difusión y divulgación del lenguaje en todo el territorio nacional. Por medio de charlas, conferencias, conversatorios, foros y talleres en distintos lugares de interés en la nación, para lograr la mayor penetración del conocimiento sobre este fabuloso lenguaje de programación en el territorio nacional, con el patrocinio de universidades y centros de educación superior e intermedio.
 
-- Educar, certificar y aportar la mayor cantidad conocimientos con la mejor calidad posible y talento venezolano. Amparados en las leyes y decretos de divulgación de tecnologías en el país y en acuerdo con las licencias de uso en cada desarrollo informático utilizado. 
+- Educar, certificar y aportar la mayor cantidad de conocimientos con la mejor calidad posible al talento venezolano. Amparados en las leyes y decretos de divulgación de tecnologías en el país y en acuerdo con las licencias de uso en cada desarrollo informático utilizado. 
 
 - Compartir e intercambiar a todos los niveles los conocimientos adquiridos en todos los ámbitos de uso que existan o puedan generarse por medio de dicho lenguaje de programación respetando los derechos de autor y la libertad del conocimiento humano el cual se plantea preservar para la posteridad.
 
-- Albergar a la mayor cantidad de programadores y desarrolladores del lenguaje que sea posible, para la expansión del mismo sin dejar a un lado los que se sientan afines a otros lenguajes pero que hagan uso pasajero de **Golang** en proyectos profesionales o para terceros.
+- Albergar a la mayor cantidad de programadores y desarrolladores del lenguaje que sea posible, para la expansión del mismo sin dejar a un lado los que se sientan afines a otros lenguajes pero que hagan uso pasajero o definitivo de *Go/Golang* en proyectos personales o de terceros.
 
-Golang Venezuela es la primera comunidad de desarrollador del proyecto [Golang](https://golang.org) en el país, pero esperamos no ser la única.
+{{< warning title="Importante" >}}
+**Golang Venezuela** es la primera comunidad de desarrolladores en lenguaje *Go/Golang* del país, pero esperamos no ser la única con el aporte de las subcomunidades a nivel nacional.
+{{< /warning >}}
 
 ## Miembros
 
@@ -42,4 +44,6 @@ Nuestra comunidad de programadores y desarrolladores actualmente cuenta con un g
 - [Alejandro Arnaud Peralta](https://do.linkedin.com/in/alejandro-arnaud-peralta-9590a4a8) [Programador] / Santo Domingo, República Dominicana
 - [Alexys Lozada](https://www.facebook.com/AlexysLozada?fref=nf) [Programador] / Bogotá, Colombia
 
-Recibir una [certificación](/certificaciones/) como desarrollador de Golang en Venezuela es muy fácil, solo participa en nuestros eventos y has notar tu presencia en nuestras distintas plataformas.
+{{< note title="Nota" >}}
+Para recibir la **Certificación Golang Venezuela** como desarrollador en lenguaje de programación *Go/Golang* es muy fácil, solo participa en nuestros eventos y has notar tu presencia en nuestras distintas plataformas.
+{{< /note >}}

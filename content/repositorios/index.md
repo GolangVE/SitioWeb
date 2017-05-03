@@ -4,24 +4,17 @@ title: Repositorios
 weight: 30
 ---
 
-Quo vadis? The port of the original [Material theme](https://github.com/squidfunk/mkdocs-material) has replicated nearly all of its features. A few are still missing but I've good news: the Hugo community is actively working on this issues. Maybe with the next release of Hugo we can abandon this list. Stay tuned.
+La comunidad de programadores y desarrolladores **Golang Venezuela** actualmente es menor a *20 miembros*, los cuales son muy activos en generar nuevos contenidos útiles para todos los usuarios del leguaje.
 
-## Localization
+{{< note title="Nota" >}}
+Si deseas que tu repositorio aparezca aquí solo debes enviar el enlace al correo **golang@url.co.ve** y nosotros con gusto lo haremos públicos para darte el reconocimiento que te mereces.
+{{< /note >}}
 
-Currently, it is possible to collect all strings in a single place for easy customization. However, this only enables you to define all strings in a single language. This approach is quite limiting in terms of localization support. Therefore, I decided to wait for a native integration. This way we can avoid a second setup of all strings in your website.
+## Lista de Autores
 
-Keep an eye on [#1734](https://github.com/spf13/hugo/issues/1734).
+Encuentra los repositorios de generales de la comunidad **Golang Venezuela** en nuestras plataformas de [GitLab](http://gitlab.com/GolangVE) y [GitHub](https://github.com/GolangVE), o conoce los proyectos de nuestros miembros:
 
-## Search
-
-Beside third-party services, some hacky workarounds and Grunt-/Gulp-based scripts that only require unnecessary dependencies, future versions of Hugo will support the generation of a content index as a core feature.
-
-This approach plays well with this theme since MkDocs does the same.
-
-Keep an eye on [#1853](https://github.com/spf13/hugo/pull/1853).
-
-## Contributing
-
-Did you found an bug or you would like to suggest a new feature? I'm open for feedback. Please open a new [issue](https://github.com/digitalcraftsman/hugo-material-docs/issues) and let me know.
-
-You're also welcome to contribute with [pull requests](https://github.com/digitalcraftsman/hugo-material-docs/pulls).
+- [Junior Carrillo](http://juniorcarrillo.com.ve) - Repositorios en [GitLab](http://gitlab.com/SoyJrCarrillo) y [GitHub](https://github.com/SoyJrCarrillo).
+- [Phanor Coll](http://www.phanorcoll.com/) - Repositorios en [GitLab](http://gitlab.com/PhanorColl) y [GitHub](https://github.com/PhanorColl).
+- [Alexys Lozada](https://www.facebook.com/AlexysLozada?fref=nf) - Repositorios en [GitLab](http://gitlab.com/alexyslozada) y [GitHub](https://github.com/alexyslozada).
+- [Alejandro Arnaud Peralta](https://do.linkedin.com/in/alejandro-arnaud-peralta-9590a4a8) - Repositorios en [GitLab](http://gitlab.com/Gyga8K) y [GitHub](https://github.com/Gyga8K).
