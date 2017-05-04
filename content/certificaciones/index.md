@@ -4,58 +4,40 @@ title: Certificaciones
 weight: 40
 ---
 
-## Hello world
+*Golang Venezuela* como comunidad de programadores oficial del lenguaje de programación *Go/Golang* en el país, se reserva el derecho de certificación a forma de intensivo a todos los miembros y usuarios de la comunidad. Dentro o fuera del país.
 
-Let's create our first content file for your documentation. Open a terminal and add the following command for each new file you want to add. Replace `<section-name>` with a general term that describes your document in detail.
+Las certificaciones emitidas por *Golang Venezuela* no representan a los desarrolladores del lenguaje y/o la empresa madre del mismo *(Google Inc.)*, solo el respectivo reconocimiento de esta comunidad sobre las capacidades de desarrollo que tenga cada programador sobre dicho lenguaje, en donde **todas nuestras certificaciones son de carácter gratuito** en donde solo se solicitará una contribución en los casos donde dicha certificación sea física y no virtual.
 
-```sh
-hugo new <section-name>/filename.md
-```
+## Participantes
 
-Visitors of your website will find the final document under `www.example.com/<section-name>/filename/`.
+Conservan certificaciones generales todos los asistentes de actos y/o eventos de la comunidad *Golang Venezuela* dentro o fura del dais. Son de carácter general y pueden ser emitidas por cualquier **miembro programador** previamente certificado en este lenguaje por esta comunidad.
 
-Since it's possible to have multiple content files in the same section I recommend to create at least one `index.md` file per section. This ensures that users will find an index page under `www.example.com/<section-name>`.
+Generalmente son físicos y no conservan respaldo de certificación en nuestra área de [verificación de certificación en linea](http://certificaciones.golang.org.ve), así como también generalmente se solicita una contribución mínima dedicada a la reproducción personalizada de cada certificado.
 
-## Homepage
+## Colaboradores
 
-To add content to the homepage you need to add a small indicator to the frontmatter of the content file:
+Las certificaciones de *Colaboradores Golang Venezuela* son expedidas a aquellos programadores que participan en el desarrollo de esta comunidad a nivel nacional y en casos excepcionales a los que colaboran en el desarrollo de la comunidad desde otras latitudes. Esta certificación es otorgada *solo por un Programador Certificado en el Lenguaje de la comunidad*, preserva el derecho de [verificación de certificación en linea](http://certificaciones.golang.org.ve) y se otorga en los siguientes niveles:
 
-```toml
-type: index
-```
+### Colaborador Eventual
 
-Otherwise the theme will not be able to find the corresponding content file.
+Son aquellos miembros y/o usuarios de la comunidad que participan de forma lejana o poco continua en el desarrollo de cualquier actividad de la misma.
 
-## Table of contents
+### Colaborador Permanente
 
-You maybe noticed that the menu on the left contains a small table of contents of the current page. All `<h2>` tags (`## Headline` in Markdown) will be added automatically.
+Son aquellos miembros y/o usuarios de la comunidad que participan continuamente en actividades concernientes a la misma.
 
-## Admonitions
+## Programadores
 
-Admonition is a handy feature that adds block-styled side content to your documentation, for example hints, notes or warnings. It can be enabled by using the corresponding [shortcodes](http://gohugo.io/extras/shortcodes/) inside your content:
+Son aquellos miembros con mayor nivel de conocimiento sobre el lenguaje y ostentan beneficios únicos dentro de la *Comunidad Golang Venezuela* en los siguientes niveles:
 
-```go
-{{</* note title="Note" */>}}
-Nothing to see here, move along.
-{{</* /note */>}}
-```
+### Junior Developer
 
-This will print the following block:
+Programadores con conocimientos básicos sobre el lenguaje y que en la mayoría de los casos acaban de iniciarse dentro de la comunidad de programadores de *Golang Venezuela*.
 
-{{< note title="Note" >}}
-Nothing to see here, move along.
-{{< /note >}}
+### Senior Developer
 
-The shortcode adds a neutral color for the note class and a red color for the warning class. You can also add a custom title:
+Programadores con conocimientos y experiencia intermedios, que ya manejan los conocimientos suficientes dentro del lenguaje para calificarse como programadores intermedios de nivel profesional dentro de esta comunidad.
 
-```go
-{{</* warning title="Don't try this at home" */>}}
-Nothing to see here, move along.
-{{</* /warning */>}}
-```
+### Master Developer
 
-This will print the following block:
-
-{{< warning title="Don't try this at home" >}}
-Nothing to see here, move along.
-{{< /warning >}}
+Programadores con grandes conocimientos y experiencia sobre el lenguaje, que están capacitados y calificados como programadores avanzados dentro de esta comunidad.

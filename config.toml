@@ -70,8 +70,8 @@ googleAnalytics = ""
 	weight = 50
 
 [[menu.main]]
-	name   = "Ayuda"
-	url    = "ayuda/"
+	name   = "F.A.Q."
+	url    = "faq/"
 	weight = 60
 
 [blackfriday]
