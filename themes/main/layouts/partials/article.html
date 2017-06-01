@@ -1,0 +1,16 @@
+<article class="card">
+  <div class="card-image">
+    <a class="btn-floating halfway-fab pulse waves-effect waves-light btn-large {{ .Site.Params.UI.accent }}" href="#comments"><i class="material-icons">comment</i></a>
+  </div>
+  <div class="card-content">
+  	<strong style="font-size: 10px;">Publicado el <time>{{ .Date.Format "02.01.2006" }}</time> por {{ .Params.author }}</strong>
+  	<span class="card-title">{{ .Title }}</span>
+  	<p>{{ .Content }}</p>
+  	<p style="text-align: right;">{{ range .Params.tags }}<a class="chip" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}</p>
+  </div>
+  <div class="white-text card-action {{ .Site.Params.UI.secondary_text }}">
+  	{{ partial "share.html" . }}
+  </div>
+  <div id="comments" class="card-action">
+  {{ partial "comments.html" . }}		
+</article>

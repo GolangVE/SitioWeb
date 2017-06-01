@@ -1,0 +1,19 @@
+    <header>
+      <nav class="nav-extended {{ .Site.Params.UI.primary }}">
+        <div class="nav-wrapper container">
+          <a href="/" class="brand-logo">{{ .Site.Params.Author }}</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            {{ partial "nav.html" . }}
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            {{ partial "nav.html" . }}
+          </ul>
+        </div>
+        <div class="nav-content {{ .Site.Params.UI.primary_dark }}">
+          <ul class="tabs tabs-transparent container">
+            {{ partial "nav_sub.html" . }}
+          </ul>
+        </div>
+      </nav>
+    </header>

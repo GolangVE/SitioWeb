@@ -1,0 +1,23 @@
+  <article class="card sticky-action">
+    <div class="card-image waves-effect waves-block waves-light">
+      {{ with .Params.cover }}
+      <img class="activator" src="{{ . }}">
+      {{ end }}
+    </div>
+    <div class="card-action">
+      <span class="card-title activator grey-text text-darken-4">{{ .Title }}<i class="material-icons right">more_vert</i></span>
+      <p><a class="btn waves-effect waves-light {{ .Site.Params.UI.accent }}" href="{{ .Permalink }}">Leer más</a></p>
+    </div>
+    <div class="card-reveal">
+      <strong style="font-size: 10px;">Publicado el <time>{{ .Date.Format "02.01.2006" }}</time> por {{ with .Params.author }}{{ . }}{{ end }}</strong>
+      <span class="card-title grey-text text-darken-4">
+      {{ with .Params.subtitle }} {{ . }} {{ end }}<i class="material-icons right">close</i>
+      </span>
+      <p>
+        {{ with .Params.summary }} {{ . }} {{ end }} <br />
+        {{ range .Params.tags }}
+        <a class="waves-effect waves-teal btn-flat btn-small right" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><i class="material-icons left">label</i> {{ . }}</a>
+        {{ end }}
+      </p>
+    </div>
+  </article>

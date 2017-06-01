@@ -1,0 +1,28 @@
+{{ partial "head.html" . }}
+<body>
+  {{ partial "preload.html" . }}
+  <div class="main">
+    {{ partial "header_content.html" . }}
+    {{ partial "intro.html" . }}
+      <div class="container">
+        <div style="padding: 0px;"></div>
+        <div class="row">
+          <div class="col l4 hide-on-med-and-down">
+            {{ partial "sidebar.html" . }}
+          </div>
+          <div class="col m12 l8">
+            {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+            {{ range $paginator.Pages }}
+              {{ partial "summary.html" . }}
+            {{ end }}
+            {{ partial "pagination.html" . }}
+          </div>
+        </div>
+      </div>
+      
+      {{ partial "footer.html" . }}
+  </div><!-- fin main -->
+  {{ partial "extra.html" . }}
+  {{ partial "javascript.html" . }}
+</body>
+</html>

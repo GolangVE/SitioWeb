@@ -1,8 +1,8 @@
-![Build Status](http://golang.org.ve/images/build.svg)
+[![build status](https://gitlab.com/GolangVE/SitioWeb/badges/master/build.svg)](https://gitlab.com/GolangVE/SitioWeb/commits/master) [![coverage report](https://gitlab.com/GolangVE/SitioWeb/badges/master/coverage.svg)](https://gitlab.com/GolangVE/SitioWeb/commits/master)
 
 ---
 
-# Bienvenidos al repositorio del nuestra página web
+# Bienvenidos al repositorio del nuestra página web *VERSIÓN 2.0.1*
 
 Este es el repositorio principal del sitio web oficial de la comunidad [Golang en Venezuela](http://golang.org.ve). Administrado por el fundador del proyecto: [Junior Carrillo](http://juniorcarrillo.com.ve) y demás miembros de la comunidad dentro y fuera de Venezuela.
 

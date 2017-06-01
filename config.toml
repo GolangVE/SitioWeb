@@ -1,81 +1,42 @@
-baseurl = "http://golang.org.ve"
+baseURL = "https://golang.org.ve/"
 languageCode = "es-ES"
 title = "Golang Venezuela"
-theme = "golangve"
-metadataformat = "yaml"
-canonifyurls = true
-# Enable Google Analytics by entering your tracking id
-googleAnalytics = ""
+theme = "main"
 
 [params]
-	# General information
 	author = "Golang Venezuela"
+	authorAlt = "Comunidad Golang Venezuela"
+	domain = "Golang.org.ve"
+	favicon = "/img/favicon.png"
+	protocol = "https"
+	langCode = "es_ES"
+	email = "golang@url.co.ve"
+
+[params.seo]
+	fbid = "1738958976390281"
+	locale = "es_ES"
+	title = "Bienvenido a la Comunidad Golang Venezuela"
 	description = "Bienvenidos a la comunidad oficial de desarrolladores Golang en Venezuela. Encuentra recursos, concejos y repositorios Golang libres."
-	copyright = "Golang Venezuela"
+	img = "/img/seo.jpg"
+	imgjson = "seo.jpg"
+	gverification = "a9546a27e16d42c9955d89ea969c48f7"
 
-	# Repository
-	provider = "GitHub"
-	repo_url = "https://github.com/GolangVE/SitioWeb"
+[permalinks]
+	post = "/:slug/"
 
-	version = "0.2"
-	logo = "/images/logo.png"
-	favicon = "/images/icono.png"
-	permalink = "#"
-
-	# Custom assets
-	custom_css = []
-	custom_js  = []
-
-	# Syntax highlighting theme
-	highlight_css  = ""
-
-	[params.palette]
-    	primary = "blue"
-    	accent  = "red"
-
-    [params.font]
-    	text = "Ubuntu"
-    	code = "Ubuntu Mono"
-
-
-[social]
+[params.social]
+	facebook = "GolangVE"
 	twitter = "GolangVE"
-	github  = "GolangVE"
-	email   = "golang@url.co.ve"
+	telegram = "GolangVE"
+	youtube = "GolangVE"
+	gitlab = "GolangVE"
+	github = "GolangVE"
 
-
-[[menu.main]]
-	name   = "La Comunidad"
-	url    = "/"
-	weight = 10
-
-[[menu.main]]
-	name   = "Herramientas"
-	url    = "herramientas/"
-	weight = 20
-
-[[menu.main]]
-	name   = "Repositorios"
-	url    = "repositorios/"
-	weight = 30
-
-[[menu.main]]
-	name   = "Certificaciones"
-	url    = "certificaciones/"
-	weight = 40
-
-[[menu.main]]
-	name   = "Licencias"
-	url    = "licencias/"
-	weight = 50
-
-[[menu.main]]
-	name   = "F.A.Q."
-	url    = "faq/"
-	weight = 60
-
-[blackfriday]
-	smartypants	= true
-	fractions = true
-	smartDashes = true
-	plainIDAnchors = true
+[params.ui]
+    primary = "#00bcd4 cyan"
+    primary_dark = "#0097a7 cyan darken-2"
+    primary_light = "#b2ebf2 cyan lighten-4"
+    accent = "#ff5252 red accent-2"
+    primary_text = "#212121 grey darken-4"
+    secondary_text = "#424242 grey darken-3"
+    divider = "#bdbdbd grey lighten-1"
